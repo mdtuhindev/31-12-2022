@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+
+.row::after{
+    clear:both
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+/* Header */
+header{
+    background: #24a19c;
+    padding: 0% 1%;
+    text-align: center;
+}
